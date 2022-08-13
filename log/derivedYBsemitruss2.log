@@ -1,0 +1,7 @@
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 2 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+I constructed 5 derived YB semitrusses in 1889ms (= 0:00:01.889)
+gap> construct(4);

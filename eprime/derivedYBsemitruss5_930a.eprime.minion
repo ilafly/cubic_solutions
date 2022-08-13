@@ -1,0 +1,147 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+DISCRETE S_00001_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00001_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00001_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00001_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00001_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00002_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00002_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00002_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00002_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00002_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00003_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00003_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00003_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00003_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00003_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00004_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00004_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00004_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00004_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00004_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00005_00001 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00005_00002 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00005_00003 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00005_00004 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+DISCRETE S_00005_00005 #
+{0..0}  #  This is an empty domain. Faking that by using 0..0 and the false() constraint below.
+**CONSTRAINTS**
+false()
+**VARIABLES**
+**TUPLELIST**
+M 5 5
+1 1 1 4 5 
+1 1 1 4 5 
+3 3 3 4 5 
+4 4 4 4 4 
+5 5 5 4 5 
+**VARIABLES**
+ALIAS M[5,5]=[[1, 1, 1, 4, 5], [1, 1, 1, 4, 5], [3, 3, 3, 4, 5], [4, 4, 4, 4, 4], [5, 5, 5, 4, 5]]
+**SEARCH**
+PRINT[[S_00001_00001],[S_00001_00002],[S_00001_00003],[S_00001_00004],[S_00001_00005],[S_00002_00001],[S_00002_00002],[S_00002_00003],[S_00002_00004],[S_00002_00005],[S_00003_00001],[S_00003_00002],[S_00003_00003],[S_00003_00004],[S_00003_00005],[S_00004_00001],[S_00004_00002],[S_00004_00003],[S_00004_00004],[S_00004_00005],[S_00005_00001],[S_00005_00002],[S_00005_00003],[S_00005_00004],[S_00005_00005]]
+VARORDER STATIC [S_00001_00001, S_00001_00002, S_00001_00003, S_00001_00004, S_00001_00005, S_00002_00001, S_00002_00002, S_00002_00003, S_00002_00004, S_00002_00005, S_00003_00001, S_00003_00002, S_00003_00003, S_00003_00004, S_00003_00005, S_00004_00001, S_00004_00002, S_00004_00003, S_00004_00004, S_00004_00005, S_00005_00001, S_00005_00002, S_00005_00003, S_00005_00004, S_00005_00005]
+**CONSTRAINTS**
+false()**EOF**

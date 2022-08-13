@@ -1,0 +1,53 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 1
+# CSE_active_eliminated_expressions = 4
+# CSE_active_total_size = 3
+**VARIABLES**
+DISCRETE S_00005_00005 #
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(S_00005_00005, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux0 #Active-CSE: 4 occurrences of this expression or equivalent: (5*S_00005_00005 + -4)
+{1..21}
+**CONSTRAINTS**
+w-inintervalset(aux0, [1,1,21,21])
+**VARIABLES**
+DISCRETE aux1 #(6*S_00005_00005 + -5)
+{1..25}
+**CONSTRAINTS**
+w-inintervalset(aux1, [1,1,25,25])
+**VARIABLES**
+**TUPLELIST**
+M 5 5
+1 1 1 1 5 
+1 1 1 2 5 
+1 1 2 3 5 
+1 2 3 4 5 
+5 5 5 5 5 
+**VARIABLES**
+ALIAS M[5,5]=[[1, 1, 1, 1, 5], [1, 1, 1, 2, 5], [1, 1, 2, 3, 5], [1, 2, 3, 4, 5], [5, 5, 5, 5, 5]]
+**SEARCH**
+PRINT[[S_00005_00005]]
+VARORDER STATIC [S_00005_00005]
+**CONSTRAINTS**
+watchelement_one([5, 5, 5, 5, 5], S_00005_00005, 5)
+watchelement_one([5, 5, 5, 5, S_00005_00005], S_00005_00005, 5)
+watchelement_one([1, 1, 1, 1, 5], S_00005_00005, S_00005_00005)
+watchelement_one([1, 1, 1, 2, 5], S_00005_00005, S_00005_00005)
+watchelement_one([1, 1, 2, 3, 5], S_00005_00005, S_00005_00005)
+watchelement_one([1, 2, 3, 4, 5], S_00005_00005, S_00005_00005)
+watchelement_one([1, 1, 1, 1, 5, 1, 1, 1, 2, 5, 1, 1, 2, 3, 5, 1, 2, 3, 4, 5, 5], aux0, S_00005_00005)
+watchelement_one([1, 1, 1, 5, 1, 1, 1, 2, 5, 1, 1, 2, 3, 5, 1, 2, 3, 4, 5, 5, 5], aux0, S_00005_00005)
+watchelement_one([1, 1, 5, 1, 1, 1, 2, 5, 1, 1, 2, 3, 5, 1, 2, 3, 4, 5, 5, 5, 5], aux0, S_00005_00005)
+watchelement_one([1, 5, 1, 1, 1, 2, 5, 1, 1, 2, 3, 5, 1, 2, 3, 4, 5, 5, 5, 5, 5], aux0, S_00005_00005)
+watchelement_one([1, 1, 1, 1, 5, 1, 1, 1, 2, 5, 1, 1, 2, 3, 5, 1, 2, 3, 4, 5, 5, 5, 5, 5, 5], aux1, S_00005_00005)
+watchelement_one([1, 2, 3, 4, S_00005_00005], S_00005_00005, S_00005_00005)
+weightedsumleq([6,1],[S_00005_00005,-5],aux1)
+weightedsumgeq([6,1],[S_00005_00005,-5],aux1)
+weightedsumleq([5,1],[S_00005_00005,-4],aux0)
+weightedsumgeq([5,1],[S_00005_00005,-4],aux0)
+**EOF**

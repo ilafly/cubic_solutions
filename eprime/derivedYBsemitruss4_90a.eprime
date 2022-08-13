@@ -1,0 +1,40 @@
+language ESSENCE' 1.0
+
+letting M be [ [ 1, 2, 1, 1 ], [ 2, 1, 2, 2 ], [ 1, 2, 3, 3 ], [ 1, 2, 4, 4 ] ]
+
+letting n be 4
+
+letting perms be [
+
+[ 1, 2, 4, 3 ],
+
+]
+
+letting inverses be [
+
+[ 1, 2, 4, 3 ],
+
+]
+
+find S : matrix indexed by [int(1..n), int(1..n)] of int(1..n)
+
+such that
+
+forAll x,y : int(1..n) .
+  M[x,y]=M[y,S[y,x]],
+
+forAll x,y : int(1..n) .
+  S[S[y,x],y]=y,
+
+forAll x,y,z : int(1..n) .
+  S[x,M[y,z]]=M[S[x,y],S[x,z]],
+
+forAll x,y,z : int(1..n) .
+  S[M[x,y],z]=S[y,S[x,z]],
+
+forAll p : int(1..1) .
+    flatten( [ S[i,j] | i : int(1..n), j : int(1..n)] )
+    <=lex flatten( [ inverses[p,S[perms[p,i],perms[p,j]]] | i : int(1..n), j : int(1..n)] ),
+
+true
+

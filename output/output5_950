@@ -1,0 +1,6 @@
+Created output file for domain filtering eprime/derivedYBsemitruss5_950.eprime.minion
+Created output file eprime/derivedYBsemitruss5_950.eprime.minion
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3, 4, 5],  [1, 2, 3, 4, 5],  [1, 2, 1, 1, 1],  [1, 2, 5, 1, 5],  [1, 2, 4, 4, 1]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3, 4, 5],  [1, 2, 3, 4, 5],  [1, 2, 3, 4, 5],  [1, 2, 3, 4, 5],  [1, 2, 3, 4, 5]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3, 4, 5],  [1, 2, 3, 4, 5],  [1, 2, 4, 4, 1],  [1, 2, 3, 4, 5],  [1, 2, 4, 4, 1]] 
+Created information file eprime/derivedYBsemitruss5_950.eprime.info

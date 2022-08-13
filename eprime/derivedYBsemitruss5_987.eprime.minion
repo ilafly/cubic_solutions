@@ -1,0 +1,58 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 2
+# CSE_active_eliminated_expressions = 9
+# CSE_active_total_size = 6
+**VARIABLES**
+DISCRETE S_00005_00005 #
+{3..5}
+**CONSTRAINTS**
+w-inintervalset(S_00005_00005, [3,3,5,5])
+**VARIABLES**
+DISCRETE aux0 #Active-CSE: 5 occurrences of this expression or equivalent: (S_00005_00005 + -2)
+{1..3}
+**CONSTRAINTS**
+w-inintervalset(aux0, [1,1,3,3])
+**VARIABLES**
+DISCRETE aux1 #Active-CSE: 4 occurrences of this expression or equivalent: (5*S_00005_00005 + -14)
+{1..11}
+**CONSTRAINTS**
+w-inintervalset(aux1, [1,1,11,11])
+**VARIABLES**
+DISCRETE aux2 #(6*S_00005_00005 + -17)
+{1..13}
+**CONSTRAINTS**
+w-inintervalset(aux2, [1,1,13,13])
+**VARIABLES**
+**TUPLELIST**
+M 5 5
+1 2 3 3 5 
+2 1 3 3 5 
+3 3 3 3 5 
+3 3 3 4 5 
+5 5 5 5 5 
+**VARIABLES**
+ALIAS M[5,5]=[[1, 2, 3, 3, 5], [2, 1, 3, 3, 5], [3, 3, 3, 3, 5], [3, 3, 3, 4, 5], [5, 5, 5, 5, 5]]
+**SEARCH**
+PRINT[[S_00005_00005]]
+VARORDER STATIC [S_00005_00005]
+**CONSTRAINTS**
+watchelement_one([5, 5, 5], aux0, 5)
+watchelement_one([5, 5, S_00005_00005], aux0, 5)
+watchelement_one([3, 3, 5], aux0, S_00005_00005)
+watchelement_one([3, 4, 5], aux0, S_00005_00005)
+watchelement_one([3, 3, 3, 3, 5, 3, 3, 3, 4, 5, 5], aux1, S_00005_00005)
+watchelement_one([3, 3, 3, 5, 3, 3, 3, 4, 5, 5, 5], aux1, S_00005_00005)
+watchelement_one([3, 3, 5, 3, 3, 3, 4, 5, 5, 5, 5], aux1, S_00005_00005)
+watchelement_one([3, 5, 3, 3, 3, 4, 5, 5, 5, 5, 5], aux1, S_00005_00005)
+watchelement_one([3, 3, 5, 3, 3, 3, 4, 5, 5, 5, 5, 5, 5], aux2, S_00005_00005)
+watchelement_one([3, 4, S_00005_00005], aux0, S_00005_00005)
+weightedsumleq([6,1],[S_00005_00005,-17],aux2)
+weightedsumgeq([6,1],[S_00005_00005,-17],aux2)
+sumleq([S_00005_00005,-2],aux0)
+sumgeq([S_00005_00005,-2],aux0)
+weightedsumleq([5,1],[S_00005_00005,-14],aux1)
+weightedsumgeq([5,1],[S_00005_00005,-14],aux1)
+**EOF**

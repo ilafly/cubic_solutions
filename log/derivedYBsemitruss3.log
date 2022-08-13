@@ -1,0 +1,26 @@
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 2 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 2 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 2 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 2 YB derived semitrusses.
+Running savilerow. I found 0 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+Running savilerow. I found 1 YB derived semitrusses.
+I constructed 18 derived YB semitrusses in 10505ms (= 0:00:10.505)
+gap> construct(2);

@@ -1,0 +1,34 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 0
+# CSE_active_eliminated_expressions = 0
+# CSE_active_total_size = 0
+**VARIABLES**
+**TUPLELIST**
+perms 2 5
+1 2 5 3 4 
+1 2 4 5 3 
+**VARIABLES**
+ALIAS perms[2,5]=[[1, 2, 5, 3, 4], [1, 2, 4, 5, 3]]
+**TUPLELIST**
+inverses 2 5
+1 2 4 5 3 
+1 2 5 3 4 
+**VARIABLES**
+ALIAS inverses[2,5]=[[1, 2, 4, 5, 3], [1, 2, 5, 3, 4]]
+**TUPLELIST**
+M 5 5
+1 1 1 1 1 
+1 1 1 1 1 
+1 1 1 1 2 
+1 1 2 1 1 
+1 1 1 2 1 
+**VARIABLES**
+ALIAS M[5,5]=[[1, 1, 1, 1, 1], [1, 1, 1, 1, 1], [1, 1, 1, 1, 2], [1, 1, 2, 1, 1], [1, 1, 1, 2, 1]]
+**SEARCH**
+PRINT[]
+VARORDER STATIC []
+**CONSTRAINTS**
+false()**EOF**
