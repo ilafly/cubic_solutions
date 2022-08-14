@@ -1,0 +1,9 @@
+Error, Function: number of arguments must be 5 (not 4) in
+  create_fileYB( derivedYBsemitruss!.semigroup, derivedYBsemitruss!.sigma, n, k 
+ ) at ybscubicsemitrusses.g:643 called from 
+<function "construct_YB">( <arguments> )
+ called from read-eval loop at *stdin*:33
+type 'quit;' to quit to outer loop
+brk> quit;
+gap> Read("ybscubicsemitrusses.g");
+gap> construct_YB(2);

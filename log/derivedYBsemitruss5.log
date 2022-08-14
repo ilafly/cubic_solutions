@@ -1914,4 +1914,18 @@ Running savilerow. I found 1 YB derived semitrusses.
 Running savilerow. I found 1 YB derived semitrusses.
 Running savilerow. I found 1 YB derived semitrusses.
 I constructed 453 derived YB semitrusses in 1444410ms (= 0:24:04.410)
-gap> 
+gap> Read("construct_pentagon_bruteforce.g");
+Error, file "construct_pentagon_bruteforce.g" must exist and be readable at /usr/local/Cellar/gap/4.11.0/libexec/lib/files.gi:210 called from
+<function "Read string">( <arguments> )
+ called from read-eval loop at *stdin*:6
+you can 'quit;' to quit to outer loop, or
+you can 'return;' to continue
+brk> quit;
+gap> Read("ybcubicsemitrusses.g");
+Error, file "ybcubicsemitrusses.g" must exist and be readable at /usr/local/Cellar/gap/4.11.0/libexec/lib/files.gi:210 called from
+<function "Read string">( <arguments> )
+ called from read-eval loop at *stdin*:6
+you can 'quit;' to quit to outer loop, or
+you can 'return;' to continue
+brk> quit;
+gap> quit;

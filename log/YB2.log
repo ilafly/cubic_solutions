@@ -1,0 +1,15 @@
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+Running savilerow. I found 1 possible cubic YB semitrusses.
+I constructed 13 possible lambdas in 6735ms (= 0:00:06.735)
+gap> construct_YB(3);

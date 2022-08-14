@@ -1,0 +1,13 @@
+Created output file for domain filtering eprime/lambdas3_11.eprime.minion
+Created output file eprime/lambdas3_11.eprime.minion
+Solution: language ESSENCE' 1.0 letting L be [[1, 1, 1],  [1, 1, 1],  [1, 1, 1]] 
+Solution: language ESSENCE' 1.0 letting L be [[1, 1, 1],  [1, 1, 1],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting L be [[1, 1, 1],  [3, 3, 3],  [1, 1, 1]] 
+Solution: language ESSENCE' 1.0 letting L be [[1, 1, 1],  [3, 3, 3],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting L be [[1, 1, 3],  [1, 1, 3],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting L be [[1, 3, 3],  [3, 3, 3],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting L be [[3, 3, 3],  [1, 1, 1],  [1, 1, 1]] 
+Solution: language ESSENCE' 1.0 letting L be [[3, 3, 3],  [1, 1, 1],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting L be [[3, 3, 3],  [3, 3, 3],  [1, 1, 1]] 
+Solution: language ESSENCE' 1.0 letting L be [[3, 3, 3],  [3, 3, 3],  [3, 3, 3]] 
+Created information file eprime/lambdas3_11.eprime.info
