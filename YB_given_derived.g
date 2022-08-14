@@ -1,6 +1,6 @@
 LoadPackage("IO");
 LoadPackage("YangBaxter");
-Read("derived_v2.g");
+Read("derived_v3.g");
 
 twist_matrix := function(obj, f)
   local i,j,m,n;
@@ -105,7 +105,7 @@ create_files := function(n, racks)
 
     Add(lines, "\ntrue\n");
 
-    f := IO_File(Concatenation("YB", String(n), "_r", String(m),".eprime"), "w");
+    f := IO_File(Concatenation("eprime/solutions/YB", String(n), "_r", String(m),".eprime"), "w");
     for x in lines do
       IO_WriteLine(f, x);
     od;
@@ -135,7 +135,7 @@ read_file := function(n, filename)
       Add(l, m);
     fi;
   od;
-  Print("I found ", k, " solutions\n");
+  Print("I found ", k, " cubic solutions\n");
 
   IO_Flush(f);
   IO_Close(f);
@@ -153,7 +153,7 @@ compute_YB := function(n,racks)
   s := "../savilerow-1.9.1-mac/savilerow -run-solver -all-solutions -solutions-to-stdout-one-line ";
 
   LogTo();
-  LogTo(Concatenation("YB", String(n), "_method1.log"));
+  LogTo(Concatenation("log/solutions/YB", String(n), "_method1.log"));
 
   create_files(n, racks);
 
@@ -167,9 +167,9 @@ compute_YB := function(n,racks)
     #   continue;
     # fi;
 
-    output := Concatenation("YB", String(n), "_r", String(k),".output");
+    output := Concatenation("output/solutionsYB", String(n), "_r", String(k),".output");
     Print("Running savilerow. File: YB", String(n), "_r", String(k), ".eprime", ". Output: ", output, "\n");
-    Exec(Concatenation(s, "YB", String(n), "_r", String(k), ".eprime", " >", output));
+    Exec(Concatenation(s, "eprime/solutions/YB", String(n), "_r", String(k), ".eprime", " >", output));
 
     for x in read_file(n, output) do
       Add(t, shelfandlambda2YB(rack,x));
@@ -180,10 +180,10 @@ compute_YB := function(n,racks)
     mytime := Int(Float((t1-t0)/10^6));
     Print("Rack:\n");
     Display(rack);
-    Print("I constructed ", m, " solutions in ", mytime, "ms (=", StringTime(mytime), ")\n");
+    Print("I constructed ", m, " cubic solutions in ", mytime, "ms (=", StringTime(mytime), ")\n");
 
-    f := IO_File(Concatenation("YB", String(n), "_r", String(k), ".g"), "w");
-    IO_WriteLine(f, Concatenation("YB", String(n), "_r", String(k)," := ["));
+    f := IO_File(Concatenation("data/solutions/YB", String(n), "_r", String(k), ".g"), "w");
+    IO_WriteLine(f, Concatenation("data/solutions/YB", String(n), "_r", String(k)," := ["));
     for x in t do
       IO_WriteLine(f, Concatenation(String(x),","));
     od;
@@ -212,7 +212,7 @@ enumerate_YB := function(n,racks)
   s := "../savilerow-1.9.1-mac/savilerow -run-solver -all-solutions -solutions-to-stdout-one-line ";
 
   LogTo();
-  LogTo(Concatenation("YB", String(n), "_method1.log"));
+  LogTo(Concatenation("log/solutions/YB", String(n), "_method1.log"));
 
   create_files(n, racks);
 
@@ -226,9 +226,9 @@ enumerate_YB := function(n,racks)
       continue;
     fi;
 
-    output := Concatenation("YB", String(n), "_r", String(k),".output");
+    output := Concatenation("output/solutions/YB", String(n), "_r", String(k),".output");
     Print("Running savilerow. File: YB", String(n), "_r", String(k), ".eprime", ". Output: ", output, "\n");
-    Exec(Concatenation(s, "YB", String(n), "_r", String(k), ".eprime", " >", output));
+    Exec(Concatenation(s, "eprime/solutions/YB", String(n), "_r", String(k), ".eprime", " >", output));
 
     t := Size(read_file(n, output));
     m := m+t;
@@ -237,7 +237,7 @@ enumerate_YB := function(n,racks)
     mytime := Int(Float((t1-t0)/10^6));
     Print("Rack:\n");
     Display(rack);
-    Print("I constructed ", m, " solutions in ", mytime, "ms (=", StringTime(mytime), ")\n");
+    Print("I constructed ", m, " cubic solutions in ", mytime, "ms (=", StringTime(mytime), ")\n");
 
     k := k+1;
   od;

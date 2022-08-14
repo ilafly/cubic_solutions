@@ -1,0 +1,9 @@
+Created output file for domain filtering eprime/solutions/cubic3derived.eprime.minion
+Created output file eprime/solutions/cubic3derived.eprime.minion
+Solution: language ESSENCE' 1.0 letting S be [[1, 1, 1],  [2, 2, 2],  [3, 3, 3]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 1, 3],  [2, 2, 3],  [1, 2, 3]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3],  [1, 1, 1],  [1, 1, 1]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3],  [1, 1, 3],  [1, 2, 1]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3],  [1, 1, 3],  [1, 2, 3]] 
+Solution: language ESSENCE' 1.0 letting S be [[1, 2, 3],  [1, 2, 3],  [1, 2, 3]] 
+Created information file eprime/solutions/cubic3derived.eprime.info

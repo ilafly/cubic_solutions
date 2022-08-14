@@ -1,0 +1,352 @@
+Running savilerow. File: YB5_r1.eprime. Output: output/solutionsYB5_r1.output
+I found 11 cubic solutions
+Rack:
+[ [  1,  1,  1,  1,  1 ],
+  [  2,  2,  2,  2,  2 ],
+  [  3,  3,  3,  3,  3 ],
+  [  4,  4,  4,  4,  4 ],
+  [  5,  5,  5,  5,  5 ] ]
+I constructed 11 cubic solutions in 9563ms (= 0:00:09.563)
+Running savilerow. File: YB5_r2.eprime. Output: output/solutionsYB5_r2.output
+I found 41 cubic solutions
+Rack:
+[ [  1,  1,  1,  1,  5 ],
+  [  2,  2,  2,  2,  5 ],
+  [  3,  3,  3,  3,  5 ],
+  [  4,  4,  4,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 52 cubic solutions in 11629ms (= 0:00:11.629)
+Running savilerow. File: YB5_r3.eprime. Output: output/solutionsYB5_r3.output
+I found 68 cubic solutions
+Rack:
+[ [  1,  1,  1,  4,  5 ],
+  [  2,  2,  2,  4,  5 ],
+  [  3,  3,  3,  4,  5 ],
+  [  1,  2,  3,  4,  4 ],
+  [  1,  2,  3,  5,  5 ] ]
+I constructed 120 cubic solutions in 13043ms (= 0:00:13.043)
+Running savilerow. File: YB5_r4.eprime. Output: output/solutionsYB5_r4.output
+I found 12 cubic solutions
+Rack:
+[ [  1,  1,  1,  4,  5 ],
+  [  2,  2,  2,  4,  5 ],
+  [  3,  3,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  4 ] ]
+I constructed 132 cubic solutions in 14323ms (= 0:00:14.323)
+Running savilerow. File: YB5_r5.eprime. Output: output/solutionsYB5_r5.output
+I found 64 cubic solutions
+Rack:
+[ [  1,  1,  1,  4,  5 ],
+  [  2,  2,  2,  4,  5 ],
+  [  3,  3,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 196 cubic solutions in 15779ms (= 0:00:15.779)
+Running savilerow. File: YB5_r6.eprime. Output: output/solutionsYB5_r6.output
+I found 5 cubic solutions
+Rack:
+[ [  1,  1,  3,  3,  5 ],
+  [  2,  2,  4,  4,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  2,  2,  2,  2,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 201 cubic solutions in 17029ms (= 0:00:17.029)
+Running savilerow. File: YB5_r7.eprime. Output: output/solutionsYB5_r7.output
+I found 28 cubic solutions
+Rack:
+[ [  1,  1,  3,  3,  5 ],
+  [  2,  2,  4,  4,  5 ],
+  [  1,  1,  3,  3,  5 ],
+  [  2,  2,  4,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 229 cubic solutions in 18420ms (= 0:00:18.420)
+Running savilerow. File: YB5_r8.eprime. Output: output/solutionsYB5_r8.output
+I found 5 cubic solutions
+Rack:
+[ [  1,  1,  3,  3,  5 ],
+  [  2,  2,  4,  4,  5 ],
+  [  1,  1,  5,  5,  5 ],
+  [  2,  2,  5,  5,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 234 cubic solutions in 19812ms (= 0:00:19.812)
+Running savilerow. File: YB5_r9.eprime. Output: output/solutionsYB5_r9.output
+I found 84 cubic solutions
+Rack:
+[ [  1,  1,  3,  4,  5 ],
+  [  2,  2,  3,  4,  5 ],
+  [  1,  2,  3,  3,  5 ],
+  [  1,  2,  4,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 318 cubic solutions in 21353ms (= 0:00:21.353)
+Running savilerow. File: YB5_r10.eprime. Output: output/solutionsYB5_r10.outpu\
+t
+I found 33 cubic solutions
+Rack:
+[ [  1,  1,  3,  4,  5 ],
+  [  2,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  3,  3 ],
+  [  1,  2,  3,  3,  3 ] ]
+I constructed 351 cubic solutions in 22497ms (= 0:00:22.497)
+Running savilerow. File: YB5_r11.eprime. Output: output/solutionsYB5_r11.outpu\
+t
+I found 24 cubic solutions
+Rack:
+[ [  1,  1,  3,  4,  5 ],
+  [  2,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  3,  5 ],
+  [  1,  2,  3,  4,  3 ] ]
+I constructed 375 cubic solutions in 23779ms (= 0:00:23.779)
+Running savilerow. File: YB5_r12.eprime. Output: output/solutionsYB5_r12.outpu\
+t
+I found 9 cubic solutions
+Rack:
+[ [  1,  1,  3,  4,  5 ],
+  [  2,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  3,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 384 cubic solutions in 24831ms (= 0:00:24.831)
+Running savilerow. File: YB5_r13.eprime. Output: output/solutionsYB5_r13.outpu\
+t
+I found 104 cubic solutions
+Rack:
+[ [  1,  1,  3,  4,  5 ],
+  [  2,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 488 cubic solutions in 26373ms (= 0:00:26.373)
+Running savilerow. File: YB5_r14.eprime. Output: output/solutionsYB5_r14.outpu\
+t
+I found 12 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  1,  1,  1,  1 ] ]
+I constructed 500 cubic solutions in 28670ms (= 0:00:28.670)
+Running savilerow. File: YB5_r15.eprime. Output: output/solutionsYB5_r15.outpu\
+t
+I found 4 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  5,  5,  1,  5 ],
+  [  1,  4,  4,  4,  1 ] ]
+I constructed 504 cubic solutions in 29959ms (= 0:00:29.959)
+Running savilerow. File: YB5_r16.eprime. Output: output/solutionsYB5_r16.outpu\
+t
+I found 1 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  1 ],
+  [  1,  4,  1,  4,  1 ],
+  [  1,  3,  3,  1,  5 ],
+  [  1,  4,  1,  4,  1 ] ]
+I constructed 505 cubic solutions in 31001ms (= 0:00:31.001)
+Running savilerow. File: YB5_r17.eprime. Output: output/solutionsYB5_r17.outpu\
+t
+I found 5 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  2,  3,  4,  1 ] ]
+I constructed 510 cubic solutions in 32273ms (= 0:00:32.273)
+Running savilerow. File: YB5_r18.eprime. Output: output/solutionsYB5_r18.outpu\
+t
+I found 12 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 522 cubic solutions in 33605ms (= 0:00:33.605)
+Running savilerow. File: YB5_r19.eprime. Output: output/solutionsYB5_r19.outpu\
+t
+I found 2 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  4,  1,  4,  5 ],
+  [  1,  3,  3,  1,  5 ],
+  [  1,  2,  3,  4,  1 ] ]
+I constructed 524 cubic solutions in 34786ms (= 0:00:34.786)
+Running savilerow. File: YB5_r20.eprime. Output: output/solutionsYB5_r20.outpu\
+t
+I found 4 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  1,  5 ],
+  [  1,  4,  1,  4,  5 ],
+  [  1,  3,  3,  1,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 528 cubic solutions in 35788ms (= 0:00:35.788)
+Running savilerow. File: YB5_r21.eprime. Output: output/solutionsYB5_r21.outpu\
+t
+I found 4 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  4 ],
+  [  1,  1,  1,  4,  4 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  4 ] ]
+I constructed 532 cubic solutions in 36883ms (= 0:00:36.883)
+Running savilerow. File: YB5_r22.eprime. Output: output/solutionsYB5_r22.outpu\
+t
+I found 8 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  4 ],
+  [  1,  1,  1,  5,  5 ],
+  [  1,  2,  2,  1,  1 ],
+  [  1,  3,  3,  1,  1 ] ]
+I constructed 540 cubic solutions in 38499ms (= 0:00:38.499)
+Running savilerow. File: YB5_r23.eprime. Output: output/solutionsYB5_r23.outpu\
+t
+I found 13 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  2,  3,  1,  1 ],
+  [  1,  2,  3,  1,  1 ] ]
+I constructed 553 cubic solutions in 40222ms (= 0:00:40.222)
+Running savilerow. File: YB5_r24.eprime. Output: output/solutionsYB5_r24.outpu\
+t
+I found 8 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  2,  3,  1,  5 ],
+  [  1,  2,  3,  4,  1 ] ]
+I constructed 561 cubic solutions in 41465ms (= 0:00:41.465)
+Running savilerow. File: YB5_r25.eprime. Output: output/solutionsYB5_r25.outpu\
+t
+I found 5 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  2,  3,  1,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 566 cubic solutions in 42702ms (= 0:00:42.702)
+Running savilerow. File: YB5_r26.eprime. Output: output/solutionsYB5_r26.outpu\
+t
+I found 5 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  4 ] ]
+I constructed 571 cubic solutions in 43784ms (= 0:00:43.784)
+Running savilerow. File: YB5_r27.eprime. Output: output/solutionsYB5_r27.outpu\
+t
+I found 28 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  1,  1,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 599 cubic solutions in 45085ms (= 0:00:45.085)
+Running savilerow. File: YB5_r28.eprime. Output: output/solutionsYB5_r28.outpu\
+t
+I found 1 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  3,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  3,  5 ],
+  [  1,  2,  3,  4,  1 ] ]
+I constructed 600 cubic solutions in 46155ms (= 0:00:46.155)
+Running savilerow. File: YB5_r29.eprime. Output: output/solutionsYB5_r29.outpu\
+t
+I found 5 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  3,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  3,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 605 cubic solutions in 47421ms (= 0:00:47.421)
+Running savilerow. File: YB5_r30.eprime. Output: output/solutionsYB5_r30.outpu\
+t
+I found 5 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  1,  4,  5 ],
+  [  1,  2,  3,  1,  5 ],
+  [  1,  2,  3,  4,  1 ] ]
+I constructed 610 cubic solutions in 49808ms (= 0:00:49.808)
+Running savilerow. File: YB5_r31.eprime. Output: output/solutionsYB5_r31.outpu\
+t
+I found 8 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  1,  4,  5 ],
+  [  1,  2,  3,  1,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 618 cubic solutions in 51292ms (= 0:00:51.292)
+Running savilerow. File: YB5_r32.eprime. Output: output/solutionsYB5_r32.outpu\
+t
+I found 4 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  1,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  4 ] ]
+I constructed 622 cubic solutions in 52370ms (= 0:00:52.370)
+Running savilerow. File: YB5_r33.eprime. Output: output/solutionsYB5_r33.outpu\
+t
+I found 20 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  1,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 642 cubic solutions in 53672ms (= 0:00:53.672)
+Running savilerow. File: YB5_r34.eprime. Output: output/solutionsYB5_r34.outpu\
+t
+I found 4 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  3,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 646 cubic solutions in 55120ms (= 0:00:55.120)
+Running savilerow. File: YB5_r35.eprime. Output: output/solutionsYB5_r35.outpu\
+t
+I found 12 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  1,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 658 cubic solutions in 56365ms (= 0:00:56.365)
+Running savilerow. File: YB5_r36.eprime. Output: output/solutionsYB5_r36.outpu\
+t
+I found 88 cubic solutions
+Rack:
+[ [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ],
+  [  1,  2,  3,  4,  5 ] ]
+I constructed 746 cubic solutions in 63371ms (= 0:01:03.371)
+gap> 

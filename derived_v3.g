@@ -7,7 +7,7 @@ Read("lib/aut.g");
 
 read_derived_solutions:=function(n)
   local f,sols;
-  f := Concatenation("cubic", String(n), "derived" ,".eprime.g");
+  f := Concatenation("data/solutions/cubic", String(n), "derived" ,".g");
   Read(f);
   sols := EvalString("sols");
   return sols;
@@ -85,6 +85,7 @@ create_content_derived := function(n)
 
   tmp1 := "";
   tmp2 := "";
+  perms := AsList(SymmetricGroup(n)){[2..Factorial(n)]};;
 
   # if n<6 then
   #   perms := AsList(SymmetricGroup(n)){[2..Factorial(n)]};;
@@ -92,7 +93,7 @@ create_content_derived := function(n)
   #   perms := AsList(SymmetricGroup(n)){[2..Factorial(5)]};;
   # fi;
 
-  perms:=ShallowCopy(AsList(ConjugacyClass(SymmetricGroup(n),(1,2))));
+  # perms:=ShallowCopy(AsList(ConjugacyClass(SymmetricGroup(n),(1,2))));
 
   # if n>4 then
   #   Append(perms,AsList(ConjugacyClass(SymmetricGroup(n),(1,2)(3,4))));
@@ -132,7 +133,7 @@ create_file_derived := function(n)
   local f,x,s,k;
 
   s := create_content_derived(n);
-  f := IO_File(Concatenation("cubic", String(n), "derived" ,".eprime"), "w");
+  f := IO_File(Concatenation("eprime/solutions/cubic", String(n), "derived" ,".eprime"), "w");
   for x in s do
     IO_WriteLine(f, x);
   od;
@@ -145,7 +146,7 @@ create_file := function(n)
   local f,x,s,k;
 
   s := create_content_derived(n);
-  f := IO_File(Concatenation("cubic", String(n), "derived" ,".eprime"), "w");
+  f := IO_File(Concatenation("eprime/solutions/cubic", String(n), "derived" ,".eprime"), "w");
   for x in s do
     IO_WriteLine(f, x);
   od;
@@ -173,7 +174,7 @@ keep_cubic := function(n, filename)
         Add(l, m);
     fi;
   od;
-  Print("I found ", k, " solutions.\n");
+  Print("I found ", k, " derived solutions.\n");
   IO_Close(f);
   return l;
 end;
@@ -186,8 +187,8 @@ run := function(filename, n)
   s := "../savilerow-1.9.1-mac/savilerow -run-solver -all-solutions -solutions-to-stdout-one-line ";
 
   Print("Running savilerow. ");
-  output := Concatenation("output", String(n));
-  Exec(Concatenation(s, filename, " >", output));
+  output := Concatenation("output/solutions/output", String(n));
+  Exec(Concatenation(s, "eprime/solutions/",filename,".eprime", " >", output));
   for x in keep_cubic(n, output) do
     # if is_new(t,x) then
       Add(t, x);
@@ -195,7 +196,7 @@ run := function(filename, n)
     # fi;
   od;
 
-  f := IO_File(Concatenation(filename, ".g"), "w");
+  f := IO_File(Concatenation("data/solutions/",filename, ".g"), "w");
 
   IO_WriteLine(f, Concatenation("sols", " := ["));
   for x in t do
@@ -215,18 +216,18 @@ derived_cubic_solutions:=function(n)
   t0 := NanosecondsSinceEpoch();
 
   LogTo();
-  LogTo(Concatenation("cubic", String(n), ".log"));
+  LogTo(Concatenation("log/solutions/cubic", String(n), ".log"));
 
 
   s := create_content_derived(n);
-  f := IO_File(Concatenation("cubic", String(n), "derived", ".eprime"), "w");
+  f := IO_File(Concatenation("eprime/solutions/cubic", String(n), "derived", ".eprime"), "w");
   for x in s do
     IO_WriteLine(f, x);
   od;
   IO_Flush(f);
   IO_Close(f);
 
-  filename := Concatenation("cubic", String(n), "derived",".eprime");
+  filename := Concatenation("cubic", String(n), "derived");
   l:=run(filename,  n);
 
 

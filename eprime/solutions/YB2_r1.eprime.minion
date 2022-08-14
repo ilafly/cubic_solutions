@@ -1,0 +1,135 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 8
+# CSE_active_eliminated_expressions = 16
+# CSE_active_total_size = 28
+**VARIABLES**
+DISCRETE M_00001_00001 #
+{1..2}
+DISCRETE M_00001_00002 #
+{1..2}
+DISCRETE M_00002_00001 #
+{1..2}
+DISCRETE M_00002_00002 #
+{1..2}
+DISCRETE aux0 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00001 + 2*M_00002_00002 + -2)
+{2..3}
+DISCRETE aux1 #Active-CSE: 2 occurrences of this expression or equivalent: (2*M_00002_00001 + M_00002_00002 + -2)
+{2..3}
+DISCRETE aux2 #Active-CSE: 2 occurrences of this expression or equivalent: (-2 + 2*M_00001_00001 + M_00001_00002)
+{2..3}
+DISCRETE aux3 #Active-CSE: 2 occurrences of this expression or equivalent: (-2 + M_00001_00001 + 2*M_00001_00002)
+{2..3}
+DISCRETE aux4 #Active-CSE: 2 occurrences of this expression or equivalent: (3*M_00002_00001 + -2)
+{1..4}
+**CONSTRAINTS**
+w-inintervalset(aux4, [1,1,4,4])
+**VARIABLES**
+DISCRETE aux5 #Active-CSE: 2 occurrences of this expression or equivalent: (3*M_00002_00002 + -2)
+{1..4}
+**CONSTRAINTS**
+w-inintervalset(aux5, [1,1,4,4])
+**VARIABLES**
+DISCRETE aux6 #Active-CSE: 2 occurrences of this expression or equivalent: (-2 + 3*M_00001_00001)
+{1..4}
+**CONSTRAINTS**
+w-inintervalset(aux6, [1,1,4,4])
+**VARIABLES**
+DISCRETE aux7 #Active-CSE: 2 occurrences of this expression or equivalent: (-2 + 3*M_00001_00002)
+{1..4}
+**CONSTRAINTS**
+w-inintervalset(aux7, [1,1,4,4])
+**VARIABLES**
+DISCRETE aux8 #ElementOne([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux4) --- ElementOne([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux6)
+{1..2}
+DISCRETE aux9 #ElementOne([M_00001_00001, M_00001_00002, M_00002_00001], aux2) --- ElementOne([M_00001_00001, M_00001_00002, M_00002_00001], aux1)
+{1..2}
+DISCRETE aux10 #ElementOne([M_00001_00001, M_00001_00002, M_00002_00001], aux3) --- ElementOne([M_00001_00001, M_00001_00002, M_00002_00001], aux0)
+{1..2}
+DISCRETE aux11 #ElementOne([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux5) --- ElementOne([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux7)
+{1..2}
+DISCRETE aux12 #ElementOne([1, 2], M_00001_00001)
+{1..2}
+DISCRETE aux13 #ElementOne([1, 2], M_00001_00002)
+{1..2}
+DISCRETE aux14 #ElementOne([1, 2], M_00002_00001)
+{1..2}
+DISCRETE aux15 #ElementOne([1, 2], M_00002_00002)
+{1..2}
+DISCRETE aux16 #ElementOne([2, 1], M_00002_00002)
+{1..2}
+DISCRETE aux17 #ElementOne([2, 1], M_00002_00001)
+{1..2}
+DISCRETE aux18 #ElementOne([2, 1], M_00001_00002)
+{1..2}
+DISCRETE aux19 #ElementOne([2, 1], M_00001_00001)
+{1..2}
+**TUPLELIST**
+rack 2 2
+1 1 
+2 2 
+**VARIABLES**
+ALIAS rack[2,2]=[[1, 1], [2, 2]]
+**TUPLELIST**
+perms 2 2
+1 2 
+2 1 
+**VARIABLES**
+ALIAS perms[2,2]=[[1, 2], [2, 1]]
+**TUPLELIST**
+inverses 2 2
+1 2 
+2 1 
+**VARIABLES**
+ALIAS inverses[2,2]=[[1, 2], [2, 1]]
+**SEARCH**
+PRINT[[M_00001_00001],[M_00001_00002],[M_00002_00001],[M_00002_00002]]
+VARORDER STATIC [M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002]
+**CONSTRAINTS**
+watchelement_one([1, 2], M_00001_00001, aux12)
+watchelement_one([1, 2], M_00001_00002, aux13)
+watchelement_one([1, 2], M_00002_00001, aux14)
+watchelement_one([1, 2], M_00002_00002, aux15)
+watchelement_one([2, 1], M_00002_00002, aux16)
+watchelement_one([2, 1], M_00002_00001, aux17)
+watchelement_one([2, 1], M_00001_00002, aux18)
+watchelement_one([2, 1], M_00001_00001, aux19)
+diseq(M_00001_00001,M_00001_00002)
+diseq(M_00002_00001,M_00002_00002)
+watchelement_one([1, 1, 2, 2], aux6, M_00001_00001)
+watchelement_one([1, 1, 2], aux2, M_00001_00001)
+watchelement_one([1, 1, 2], aux3, M_00001_00002)
+watchelement_one([1, 1, 2, 2], aux7, M_00001_00002)
+watchelement_one([1, 1, 2, 2], aux4, M_00002_00001)
+watchelement_one([1, 1, 2], aux1, M_00002_00001)
+watchelement_one([1, 1, 2], aux0, M_00002_00002)
+watchelement_one([1, 1, 2, 2], aux5, M_00002_00002)
+lexleq([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002],[aux12, aux13, aux14, aux15])
+lexleq([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002],[aux16, aux17, aux18, aux19])
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux4, aux8)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux6, aux8)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001], aux2, aux9)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001], aux1, aux9)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001], aux3, aux10)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001], aux0, aux10)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux5, aux11)
+watchelement_one([M_00001_00001, M_00001_00002, M_00002_00001, M_00002_00002], aux7, aux11)
+weightedsumleq([1,2,1],[M_00002_00001,M_00002_00002,-2],aux0)
+weightedsumgeq([1,2,1],[M_00002_00001,M_00002_00002,-2],aux0)
+weightedsumleq([2,1,1],[M_00002_00001,M_00002_00002,-2],aux1)
+weightedsumgeq([2,1,1],[M_00002_00001,M_00002_00002,-2],aux1)
+weightedsumleq([1,2,1],[-2,M_00001_00001,M_00001_00002],aux2)
+weightedsumgeq([1,2,1],[-2,M_00001_00001,M_00001_00002],aux2)
+weightedsumleq([1,1,2],[-2,M_00001_00001,M_00001_00002],aux3)
+weightedsumgeq([1,1,2],[-2,M_00001_00001,M_00001_00002],aux3)
+weightedsumleq([3,1],[M_00002_00001,-2],aux4)
+weightedsumgeq([3,1],[M_00002_00001,-2],aux4)
+weightedsumleq([3,1],[M_00002_00002,-2],aux5)
+weightedsumgeq([3,1],[M_00002_00002,-2],aux5)
+weightedsumleq([1,3],[-2,M_00001_00001],aux6)
+weightedsumgeq([1,3],[-2,M_00001_00001],aux6)
+weightedsumleq([1,3],[-2,M_00001_00002],aux7)
+weightedsumgeq([1,3],[-2,M_00001_00002],aux7)
+**EOF**

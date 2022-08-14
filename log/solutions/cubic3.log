@@ -1,0 +1,3 @@
+Running savilerow. I found 6 derived solutions.
+I constructed 6 derived cubic soultions of the YBE in 661ms (= 0:00:00.661)
+gap> derived_cubic_solutions(2);

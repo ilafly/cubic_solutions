@@ -1,0 +1,845 @@
+MINION 3
+# CSETopLevel_number = 0
+# CSETopLevel_eliminated_expressions = 0
+# CSETopLevel_total_size = 0
+# CSE_active_number = 81
+# CSE_active_eliminated_expressions = 219
+# CSE_active_total_size = 379
+**VARIABLES**
+DISCRETE M_00001_00002 #
+{2..3}
+DISCRETE M_00001_00003 #
+{3..4}
+DISCRETE M_00001_00004 #
+{2..4}
+DISCRETE M_00002_00002 #
+{2..3}
+DISCRETE M_00002_00003 #
+{3..4}
+DISCRETE M_00002_00004 #
+{2..4}
+DISCRETE M_00003_00002 #
+{2..3}
+DISCRETE M_00003_00003 #
+{3..4}
+DISCRETE M_00003_00004 #
+{2..4}
+DISCRETE M_00004_00002 #
+{2..3}
+DISCRETE M_00004_00003 #
+{3..4}
+DISCRETE M_00004_00004 #
+{2..4}
+DISCRETE aux0 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003, M_00001_00004], (M_00003_00004 + -1))
+{2..4}
+DISCRETE aux2 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003, M_00001_00004], (M_00002_00004 + -1))
+{2..4}
+DISCRETE aux5 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003, M_00001_00004], (M_00004_00004 + -1))
+{2..4}
+DISCRETE aux13 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003], (M_00004_00002 + -1))
+{2..4}
+DISCRETE aux14 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00003, M_00001_00004], (M_00004_00003 + -2))
+{2..4}
+DISCRETE aux17 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003], (M_00002_00002 + -1))
+{2..4}
+DISCRETE aux18 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00003, M_00001_00004], (M_00002_00003 + -2))
+{2..4}
+DISCRETE aux19 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00003, M_00001_00004], (M_00003_00003 + -2))
+{2..4}
+DISCRETE aux20 #Active-CSE: 2 occurrences of this expression or equivalent: ElementOne([M_00001_00002, M_00001_00003], (M_00003_00002 + -1))
+{2..4}
+DISCRETE aux21 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00002 + 4*M_00002_00003 + -13)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux21, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux22 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00002 + 4*M_00002_00004 + -9)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux22, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux23 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00002_00003 + 4*M_00002_00004 + -10)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux23, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux24 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00002 + M_00002_00004 + -9)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux24, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux25 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00002 + M_00002_00003 + -10)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux25, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux26 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00003 + M_00002_00004 + -13)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux26, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux27 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00002 + M_00004_00004 + -9)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux27, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux28 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00002 + M_00004_00003 + -10)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux28, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux29 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00003 + M_00004_00004 + -13)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux29, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux30 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00002 + 4*M_00004_00004 + -9)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux30, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux31 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00002 + 4*M_00004_00003 + -13)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux31, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux32 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00004_00003 + 4*M_00004_00004 + -10)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux32, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux33 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00002 + M_00003_00004 + -9)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux33, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux34 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00002 + M_00003_00003 + -10)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux34, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux35 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00003 + M_00003_00004 + -13)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux35, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux36 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00002 + 4*M_00003_00004 + -9)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux36, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux37 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00002 + 4*M_00003_00003 + -13)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux37, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux38 #Active-CSE: 2 occurrences of this expression or equivalent: (M_00003_00003 + 4*M_00003_00004 + -10)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux38, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux39 #Active-CSE: 2 occurrences of this expression or equivalent: (-9 + 4*M_00001_00002 + M_00001_00004)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux39, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux40 #Active-CSE: 2 occurrences of this expression or equivalent: (-10 + M_00001_00003 + 4*M_00001_00004)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux40, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux41 #Active-CSE: 2 occurrences of this expression or equivalent: (-10 + 4*M_00001_00002 + M_00001_00003)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux41, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux42 #Active-CSE: 2 occurrences of this expression or equivalent: (-9 + M_00001_00002 + 4*M_00001_00004)
+{1..10}
+**CONSTRAINTS**
+w-inintervalset(aux42, [1,2,5,6,9,10])
+**VARIABLES**
+DISCRETE aux43 #Active-CSE: 2 occurrences of this expression or equivalent: (-13 + 4*M_00001_00003 + M_00001_00004)
+{1..7}
+**CONSTRAINTS**
+w-inintervalset(aux43, [1,3,5,7])
+**VARIABLES**
+DISCRETE aux44 #Active-CSE: 2 occurrences of this expression or equivalent: (-13 + M_00001_00002 + 4*M_00001_00003)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux44, [1,2,5,6])
+**VARIABLES**
+DISCRETE aux45 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00002_00002 + -9)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux45, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux46 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00002 + -7)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux46, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux47 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00003 + -11)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux47, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux48 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00002_00004 + -7)
+{1..9}
+**CONSTRAINTS**
+w-inintervalset(aux48, [1,1,5,5,9,9])
+**VARIABLES**
+DISCRETE aux49 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00002_00003 + -14)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux49, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux50 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00002_00004 + -9)
+{1..11}
+**CONSTRAINTS**
+w-inintervalset(aux50, [1,1,6,6,11,11])
+**VARIABLES**
+DISCRETE aux51 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00004_00004 + -1)
+{1..3}
+DISCRETE aux52 #Active-CSE: 2 occurrences of this expression or equivalent: (-7 + 4*M_00001_00002)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux52, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux53 #Active-CSE: 2 occurrences of this expression or equivalent: (-7 + 4*M_00001_00004)
+{1..9}
+**CONSTRAINTS**
+w-inintervalset(aux53, [1,1,5,5,9,9])
+**VARIABLES**
+DISCRETE aux54 #Active-CSE: 2 occurrences of this expression or equivalent: (-9 + 5*M_00001_00004)
+{1..11}
+**CONSTRAINTS**
+w-inintervalset(aux54, [1,1,6,6,11,11])
+**VARIABLES**
+DISCRETE aux55 #Active-CSE: 2 occurrences of this expression or equivalent: (-9 + 5*M_00001_00002)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux55, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux56 #Active-CSE: 2 occurrences of this expression or equivalent: (-11 + 4*M_00001_00003)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux56, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux57 #Active-CSE: 2 occurrences of this expression or equivalent: (-14 + 5*M_00001_00003)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux57, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux58 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00002_00002 + -1)
+{1..2}
+DISCRETE aux59 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00002_00003 + -2)
+{1..2}
+DISCRETE aux60 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00004_00002 + -1)
+{1..2}
+DISCRETE aux61 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00003_00003 + -2)
+{1..2}
+DISCRETE aux62 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00004_00003 + -2)
+{1..2}
+DISCRETE aux63 #Active-CSE: 6 occurrences of this expression or equivalent: (-1 + M_00001_00002)
+{1..2}
+DISCRETE aux64 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00002_00004 + -1)
+{1..3}
+DISCRETE aux65 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00003_00002 + -1)
+{1..2}
+DISCRETE aux66 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00003_00003 + -14)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux66, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux67 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00003_00002 + -9)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux67, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux68 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00003_00004 + -9)
+{1..11}
+**CONSTRAINTS**
+w-inintervalset(aux68, [1,1,6,6,11,11])
+**VARIABLES**
+DISCRETE aux69 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00004 + -7)
+{1..9}
+**CONSTRAINTS**
+w-inintervalset(aux69, [1,1,5,5,9,9])
+**VARIABLES**
+DISCRETE aux70 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00003 + -11)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux70, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux71 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00003_00002 + -7)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux71, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux72 #Active-CSE: 7 occurrences of this expression or equivalent: (M_00003_00004 + -1)
+{1..3}
+DISCRETE aux73 #Active-CSE: 6 occurrences of this expression or equivalent: (-1 + M_00001_00004)
+{1..3}
+DISCRETE aux74 #Active-CSE: 6 occurrences of this expression or equivalent: (-2 + M_00001_00003)
+{1..2}
+DISCRETE aux75 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00002 + -7)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux75, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux76 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00003 + -11)
+{1..5}
+**CONSTRAINTS**
+w-inintervalset(aux76, [1,1,5,5])
+**VARIABLES**
+DISCRETE aux77 #Active-CSE: 2 occurrences of this expression or equivalent: (4*M_00004_00004 + -7)
+{1..9}
+**CONSTRAINTS**
+w-inintervalset(aux77, [1,1,5,5,9,9])
+**VARIABLES**
+DISCRETE aux78 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00004_00002 + -9)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux78, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux79 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00004_00003 + -14)
+{1..6}
+**CONSTRAINTS**
+w-inintervalset(aux79, [1,1,6,6])
+**VARIABLES**
+DISCRETE aux80 #Active-CSE: 2 occurrences of this expression or equivalent: (5*M_00004_00004 + -9)
+{1..11}
+**CONSTRAINTS**
+w-inintervalset(aux80, [1,1,6,6,11,11])
+**VARIABLES**
+DISCRETE aux81 #ElementOne([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux47) --- ElementOne([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux71)
+{1..4}
+DISCRETE aux82 #ElementOne([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux21) --- ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux67)
+{1..4}
+DISCRETE aux83 #ElementOne([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux34) --- ElementOne([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux49)
+{1..4}
+DISCRETE aux84 #ElementOne([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux26) --- ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux33)
+{1..4}
+DISCRETE aux85 #ElementOne([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux48) --- ElementOne([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux75)
+{1..4}
+DISCRETE aux86 #ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux78) --- ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux22)
+{1..4}
+DISCRETE aux87 #ElementOne([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux28) --- ElementOne([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux23)
+{1..4}
+DISCRETE aux88 #ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux50) --- ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux27)
+{1..4}
+DISCRETE aux89 #ElementOne([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux69) --- ElementOne([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux76)
+{1..4}
+DISCRETE aux90 #ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux36) --- ElementOne([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux31)
+{1..4}
+DISCRETE aux91 #ElementOne([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux79) --- ElementOne([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux38)
+{1..4}
+DISCRETE aux92 #ElementOne([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux68) --- ElementOne([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux29)
+{1..4}
+DISCRETE aux93 #ElementOne([2, 4], aux63)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux93, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux94 #ElementOne([2, 4, 3], aux73)
+{2..4}
+DISCRETE aux95 #ElementOne([4, 3], aux74)
+{3..4}
+DISCRETE aux96 #ElementOne([2, 4], aux58)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux96, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux97 #ElementOne([2, 4, 3], aux64)
+{2..4}
+DISCRETE aux98 #ElementOne([4, 3], aux59)
+{3..4}
+DISCRETE aux99 #ElementOne([2, 4], aux60)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux99, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux100 #ElementOne([2, 4, 3], aux51)
+{2..4}
+DISCRETE aux101 #ElementOne([4, 3], aux62)
+{3..4}
+DISCRETE aux102 #ElementOne([2, 4], aux65)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux102, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux103 #ElementOne([2, 4, 3], aux72)
+{2..4}
+DISCRETE aux104 #ElementOne([4, 3], aux61)
+{3..4}
+DISCRETE aux105 #ElementOne([4, 3, 2], aux73)
+{2..4}
+DISCRETE aux106 #ElementOne([3, 2], aux74)
+{2..3}
+DISCRETE aux107 #ElementOne([4, 3], aux63)
+{3..4}
+DISCRETE aux108 #ElementOne([4, 3, 2], aux51)
+{2..4}
+DISCRETE aux109 #ElementOne([3, 2], aux62)
+{2..3}
+DISCRETE aux110 #ElementOne([4, 3], aux60)
+{3..4}
+DISCRETE aux111 #ElementOne([4, 3, 2], aux72)
+{2..4}
+DISCRETE aux112 #ElementOne([3, 2], aux61)
+{2..3}
+DISCRETE aux113 #ElementOne([4, 3], aux65)
+{3..4}
+DISCRETE aux114 #ElementOne([4, 3, 2], aux64)
+{2..4}
+DISCRETE aux115 #ElementOne([3, 2], aux59)
+{2..3}
+DISCRETE aux116 #ElementOne([4, 3], aux58)
+{3..4}
+DISCRETE aux117 #ElementOne([3, 4, 2], aux73)
+{2..4}
+DISCRETE aux118 #ElementOne([3, 4], aux63)
+{3..4}
+DISCRETE aux119 #ElementOne([4, 2], aux74)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux119, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux120 #ElementOne([3, 4, 2], aux51)
+{2..4}
+DISCRETE aux121 #ElementOne([3, 4], aux60)
+{3..4}
+DISCRETE aux122 #ElementOne([4, 2], aux62)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux122, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux123 #ElementOne([3, 4, 2], aux64)
+{2..4}
+DISCRETE aux124 #ElementOne([3, 4], aux58)
+{3..4}
+DISCRETE aux125 #ElementOne([4, 2], aux59)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux125, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux126 #ElementOne([3, 4, 2], aux72)
+{2..4}
+DISCRETE aux127 #ElementOne([3, 4], aux65)
+{3..4}
+DISCRETE aux128 #ElementOne([4, 2], aux61)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux128, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux129 #ElementOne([2, 3], aux74)
+{2..3}
+DISCRETE aux130 #ElementOne([4, 2, 3], aux73)
+{2..4}
+DISCRETE aux131 #ElementOne([4, 2], aux63)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux131, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux132 #ElementOne([2, 3], aux61)
+{2..3}
+DISCRETE aux133 #ElementOne([4, 2, 3], aux72)
+{2..4}
+DISCRETE aux134 #ElementOne([4, 2], aux65)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux134, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux135 #ElementOne([2, 3], aux62)
+{2..3}
+DISCRETE aux136 #ElementOne([4, 2, 3], aux51)
+{2..4}
+DISCRETE aux137 #ElementOne([4, 2], aux60)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux137, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux138 #ElementOne([2, 3], aux59)
+{2..3}
+DISCRETE aux139 #ElementOne([4, 2, 3], aux64)
+{2..4}
+DISCRETE aux140 #ElementOne([4, 2], aux58)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux140, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux141 #ElementOne([2, 4], aux74)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux141, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux142 #ElementOne([3, 2], aux63)
+{2..3}
+DISCRETE aux143 #ElementOne([3, 2, 4], aux73)
+{2..4}
+DISCRETE aux144 #ElementOne([2, 4], aux61)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux144, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux145 #ElementOne([3, 2], aux65)
+{2..3}
+DISCRETE aux146 #ElementOne([3, 2, 4], aux72)
+{2..4}
+DISCRETE aux147 #ElementOne([2, 4], aux59)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux147, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux148 #ElementOne([3, 2], aux58)
+{2..3}
+DISCRETE aux149 #ElementOne([3, 2, 4], aux64)
+{2..4}
+DISCRETE aux150 #ElementOne([2, 4], aux62)
+{2..4}
+**CONSTRAINTS**
+w-inintervalset(aux150, [2,2,4,4])
+**VARIABLES**
+DISCRETE aux151 #ElementOne([3, 2], aux60)
+{2..3}
+DISCRETE aux152 #ElementOne([3, 2, 4], aux51)
+{2..4}
+**TUPLELIST**
+rack 4 4
+1 2 3 4 
+1 1 3 4 
+1 2 1 4 
+1 2 3 1 
+**VARIABLES**
+ALIAS rack[4,4]=[[1, 2, 3, 4], [1, 1, 3, 4], [1, 2, 1, 4], [1, 2, 3, 1]]
+**TUPLELIST**
+perms 6 4
+1 2 3 4 
+1 2 4 3 
+1 4 3 2 
+1 4 2 3 
+1 3 4 2 
+1 3 2 4 
+**VARIABLES**
+ALIAS perms[6,4]=[[1, 2, 3, 4], [1, 2, 4, 3], [1, 4, 3, 2], [1, 4, 2, 3], [1, 3, 4, 2], [1, 3, 2, 4]]
+**TUPLELIST**
+inverses 6 4
+1 2 3 4 
+1 2 4 3 
+1 4 3 2 
+1 3 4 2 
+1 4 2 3 
+1 3 2 4 
+**VARIABLES**
+ALIAS inverses[6,4]=[[1, 2, 3, 4], [1, 2, 4, 3], [1, 4, 3, 2], [1, 3, 4, 2], [1, 4, 2, 3], [1, 3, 2, 4]]
+**SEARCH**
+PRINT[[M_00001_00002],[M_00001_00003],[M_00001_00004],[M_00002_00002],[M_00002_00003],[M_00002_00004],[M_00003_00002],[M_00003_00003],[M_00003_00004],[M_00004_00002],[M_00004_00003],[M_00004_00004]]
+VARORDER STATIC [M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004]
+**CONSTRAINTS**
+watchelement_one([2, 4], aux63, aux93)
+watchelement_one([2, 4, 3], aux73, aux94)
+watchelement_one([4, 3], aux74, aux95)
+watchelement_one([2, 4], aux58, aux96)
+watchelement_one([2, 4, 3], aux64, aux97)
+watchelement_one([4, 3], aux59, aux98)
+watchelement_one([2, 4], aux60, aux99)
+watchelement_one([2, 4, 3], aux51, aux100)
+watchelement_one([4, 3], aux62, aux101)
+watchelement_one([2, 4], aux65, aux102)
+watchelement_one([2, 4, 3], aux72, aux103)
+watchelement_one([4, 3], aux61, aux104)
+watchelement_one([4, 3, 2], aux73, aux105)
+watchelement_one([3, 2], aux74, aux106)
+watchelement_one([4, 3], aux63, aux107)
+watchelement_one([4, 3, 2], aux51, aux108)
+watchelement_one([3, 2], aux62, aux109)
+watchelement_one([4, 3], aux60, aux110)
+watchelement_one([4, 3, 2], aux72, aux111)
+watchelement_one([3, 2], aux61, aux112)
+watchelement_one([4, 3], aux65, aux113)
+watchelement_one([4, 3, 2], aux64, aux114)
+watchelement_one([3, 2], aux59, aux115)
+watchelement_one([4, 3], aux58, aux116)
+watchelement_one([3, 4, 2], aux73, aux117)
+watchelement_one([3, 4], aux63, aux118)
+watchelement_one([4, 2], aux74, aux119)
+watchelement_one([3, 4, 2], aux51, aux120)
+watchelement_one([3, 4], aux60, aux121)
+watchelement_one([4, 2], aux62, aux122)
+watchelement_one([3, 4, 2], aux64, aux123)
+watchelement_one([3, 4], aux58, aux124)
+watchelement_one([4, 2], aux59, aux125)
+watchelement_one([3, 4, 2], aux72, aux126)
+watchelement_one([3, 4], aux65, aux127)
+watchelement_one([4, 2], aux61, aux128)
+watchelement_one([2, 3], aux74, aux129)
+watchelement_one([4, 2, 3], aux73, aux130)
+watchelement_one([4, 2], aux63, aux131)
+watchelement_one([2, 3], aux61, aux132)
+watchelement_one([4, 2, 3], aux72, aux133)
+watchelement_one([4, 2], aux65, aux134)
+watchelement_one([2, 3], aux62, aux135)
+watchelement_one([4, 2, 3], aux51, aux136)
+watchelement_one([4, 2], aux60, aux137)
+watchelement_one([2, 3], aux59, aux138)
+watchelement_one([4, 2, 3], aux64, aux139)
+watchelement_one([4, 2], aux58, aux140)
+watchelement_one([2, 4], aux74, aux141)
+watchelement_one([3, 2], aux63, aux142)
+watchelement_one([3, 2, 4], aux73, aux143)
+watchelement_one([2, 4], aux61, aux144)
+watchelement_one([3, 2], aux65, aux145)
+watchelement_one([3, 2, 4], aux72, aux146)
+watchelement_one([2, 4], aux59, aux147)
+watchelement_one([3, 2], aux58, aux148)
+watchelement_one([3, 2, 4], aux64, aux149)
+watchelement_one([2, 4], aux62, aux150)
+watchelement_one([3, 2], aux60, aux151)
+watchelement_one([3, 2, 4], aux51, aux152)
+watchelement_one([M_00001_00002, M_00001_00003, M_00001_00004], aux72, aux0)
+watchelement_one([2, 3, 4], aux72, M_00003_00004)
+watchelement_one([M_00001_00002, M_00001_00003, M_00001_00004], aux64, aux2)
+watchelement_one([2, 3, 4], aux51, M_00004_00004)
+watchelement_one([2, 3, 4], aux64, M_00002_00004)
+watchelement_one([M_00001_00002, M_00001_00003, M_00001_00004], aux51, aux5)
+watchelement_one([2, 3, 4], aux73, M_00001_00004)
+watchelement_one([2, 3], aux63, M_00001_00002)
+watchelement_one([3, 4], aux74, M_00001_00003)
+watchelement_one([3, 4], aux61, M_00003_00003)
+watchelement_one([2, 3], aux65, M_00003_00002)
+watchelement_one([2, 3], aux58, M_00002_00002)
+watchelement_one([3, 4], aux59, M_00002_00003)
+watchelement_one([M_00001_00002, M_00001_00003], aux60, aux13)
+watchelement_one([M_00001_00003, M_00001_00004], aux62, aux14)
+watchelement_one([3, 4], aux62, M_00004_00003)
+watchelement_one([2, 3], aux60, M_00004_00002)
+watchelement_one([M_00001_00002, M_00001_00003], aux58, aux17)
+watchelement_one([M_00001_00003, M_00001_00004], aux59, aux18)
+watchelement_one([M_00001_00003, M_00001_00004], aux61, aux19)
+watchelement_one([M_00001_00002, M_00001_00003], aux65, aux20)
+gacalldiff([M_00001_00002, M_00001_00003, M_00001_00004])
+gacalldiff([M_00002_00002, M_00002_00003, M_00002_00004])
+gacalldiff([M_00003_00002, M_00003_00003, M_00003_00004])
+gacalldiff([M_00004_00002, M_00004_00003, M_00004_00004])
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux52, 1)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux55, aux17)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux41, aux18)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux39, aux2)
+watchelement_one([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux56, 1)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux44, aux20)
+watchelement_one([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux57, aux19)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux43, aux0)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux53, 1)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux42, aux13)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux40, aux14)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux54, aux5)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux46, 1)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux45, aux17)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux25, aux18)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux24, aux2)
+watchelement_one([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux70, 1)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux37, aux20)
+watchelement_one([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux66, aux19)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux35, aux0)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux77, 1)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux30, aux13)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux32, aux14)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux80, aux5)
+watchelement_one([1, 1, 3, 4, 1], aux52, 1)
+watchelement_one([1, 3, 4, 1, 2, 1], aux55, 1)
+watchelement_one([3, 4, 1, 2, 1, 4], aux41, M_00001_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4], aux39, M_00001_00004)
+watchelement_one([1, 2, 1, 4, 1], aux56, 1)
+watchelement_one([2, 1, 4, 1, 2, 3], aux44, M_00001_00002)
+watchelement_one([1, 4, 1, 2, 3, 1], aux57, 1)
+watchelement_one([2, 1, 4, 1, 2, 3, 1], aux43, M_00001_00004)
+watchelement_one([1, 1, 3, 4, 1, 2, 1, 4, 1], aux53, 1)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3], aux42, M_00001_00002)
+watchelement_one([3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux40, M_00001_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux54, 1)
+watchelement_one([1, 1, 3, 4, 1], aux46, 1)
+watchelement_one([1, 3, 4, 1, 2, 1], aux45, 1)
+watchelement_one([3, 4, 1, 2, 1, 4], aux25, M_00002_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4], aux24, M_00002_00004)
+watchelement_one([1, 2, 1, 4, 1], aux47, 1)
+watchelement_one([2, 1, 4, 1, 2, 3], aux21, M_00002_00002)
+watchelement_one([1, 4, 1, 2, 3, 1], aux49, 1)
+watchelement_one([2, 1, 4, 1, 2, 3, 1], aux26, M_00002_00004)
+watchelement_one([1, 1, 3, 4, 1, 2, 1, 4, 1], aux48, 1)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3], aux22, M_00002_00002)
+watchelement_one([3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux23, M_00002_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux50, 1)
+watchelement_one([1, 1, 3, 4, 1], aux71, 1)
+watchelement_one([1, 3, 4, 1, 2, 1], aux67, 1)
+watchelement_one([3, 4, 1, 2, 1, 4], aux34, M_00003_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4], aux33, M_00003_00004)
+watchelement_one([1, 2, 1, 4, 1], aux70, 1)
+watchelement_one([2, 1, 4, 1, 2, 3], aux37, M_00003_00002)
+watchelement_one([1, 4, 1, 2, 3, 1], aux66, 1)
+watchelement_one([2, 1, 4, 1, 2, 3, 1], aux35, M_00003_00004)
+watchelement_one([1, 1, 3, 4, 1, 2, 1, 4, 1], aux69, 1)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3], aux36, M_00003_00002)
+watchelement_one([3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux38, M_00003_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux68, 1)
+watchelement_one([1, 1, 3, 4, 1], aux75, 1)
+watchelement_one([1, 3, 4, 1, 2, 1], aux78, 1)
+watchelement_one([3, 4, 1, 2, 1, 4], aux28, M_00004_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4], aux27, M_00004_00004)
+watchelement_one([1, 2, 1, 4, 1], aux76, 1)
+watchelement_one([2, 1, 4, 1, 2, 3], aux31, M_00004_00002)
+watchelement_one([1, 4, 1, 2, 3, 1], aux79, 1)
+watchelement_one([2, 1, 4, 1, 2, 3, 1], aux29, M_00004_00004)
+watchelement_one([1, 1, 3, 4, 1, 2, 1, 4, 1], aux77, 1)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3], aux30, M_00004_00002)
+watchelement_one([3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux32, M_00004_00003)
+watchelement_one([1, 3, 4, 1, 2, 1, 4, 1, 2, 3, 1], aux80, 1)
+lexleq([M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004],[aux93, aux94, aux95, aux96, aux97, aux98, aux99, aux100, aux101, aux102, aux103, aux104])
+lexleq([M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004],[aux105, aux106, aux107, aux108, aux109, aux110, aux111, aux112, aux113, aux114, aux115, aux116])
+lexleq([M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004],[aux117, aux118, aux119, aux120, aux121, aux122, aux123, aux124, aux125, aux126, aux127, aux128])
+lexleq([M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004],[aux129, aux130, aux131, aux132, aux133, aux134, aux135, aux136, aux137, aux138, aux139, aux140])
+lexleq([M_00001_00002, M_00001_00003, M_00001_00004, M_00002_00002, M_00002_00003, M_00002_00004, M_00003_00002, M_00003_00003, M_00003_00004, M_00004_00002, M_00004_00003, M_00004_00004],[aux141, aux142, aux143, aux144, aux145, aux146, aux147, aux148, aux149, aux150, aux151, aux152])
+watchelement_one([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux47, aux81)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux71, aux81)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux21, aux82)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux67, aux82)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux34, aux83)
+watchelement_one([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux49, aux83)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux26, aux84)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux33, aux84)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux48, aux85)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1], aux75, aux85)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003], aux78, aux86)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux22, aux86)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux28, aux87)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux23, aux87)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux50, aux88)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004], aux27, aux88)
+watchelement_one([1, M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux69, aux89)
+watchelement_one([1, M_00003_00002, M_00003_00003, M_00003_00004, 1], aux76, aux89)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux36, aux90)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003], aux31, aux90)
+watchelement_one([M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux79, aux91)
+watchelement_one([M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux38, aux91)
+watchelement_one([M_00002_00002, M_00002_00003, M_00002_00004, 1, M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux68, aux92)
+watchelement_one([M_00003_00002, M_00003_00003, M_00003_00004, 1, M_00004_00002, M_00004_00003, M_00004_00004], aux29, aux92)
+weightedsumleq([1,4,1],[M_00002_00002,M_00002_00003,-13],aux21)
+weightedsumgeq([1,4,1],[M_00002_00002,M_00002_00003,-13],aux21)
+weightedsumleq([1,4,1],[M_00002_00002,M_00002_00004,-9],aux22)
+weightedsumgeq([1,4,1],[M_00002_00002,M_00002_00004,-9],aux22)
+weightedsumleq([1,4,1],[M_00002_00003,M_00002_00004,-10],aux23)
+weightedsumgeq([1,4,1],[M_00002_00003,M_00002_00004,-10],aux23)
+weightedsumleq([4,1,1],[M_00002_00002,M_00002_00004,-9],aux24)
+weightedsumgeq([4,1,1],[M_00002_00002,M_00002_00004,-9],aux24)
+weightedsumleq([4,1,1],[M_00002_00002,M_00002_00003,-10],aux25)
+weightedsumgeq([4,1,1],[M_00002_00002,M_00002_00003,-10],aux25)
+weightedsumleq([4,1,1],[M_00002_00003,M_00002_00004,-13],aux26)
+weightedsumgeq([4,1,1],[M_00002_00003,M_00002_00004,-13],aux26)
+weightedsumleq([4,1,1],[M_00004_00002,M_00004_00004,-9],aux27)
+weightedsumgeq([4,1,1],[M_00004_00002,M_00004_00004,-9],aux27)
+weightedsumleq([4,1,1],[M_00004_00002,M_00004_00003,-10],aux28)
+weightedsumgeq([4,1,1],[M_00004_00002,M_00004_00003,-10],aux28)
+weightedsumleq([4,1,1],[M_00004_00003,M_00004_00004,-13],aux29)
+weightedsumgeq([4,1,1],[M_00004_00003,M_00004_00004,-13],aux29)
+weightedsumleq([1,4,1],[M_00004_00002,M_00004_00004,-9],aux30)
+weightedsumgeq([1,4,1],[M_00004_00002,M_00004_00004,-9],aux30)
+weightedsumleq([1,4,1],[M_00004_00002,M_00004_00003,-13],aux31)
+weightedsumgeq([1,4,1],[M_00004_00002,M_00004_00003,-13],aux31)
+weightedsumleq([1,4,1],[M_00004_00003,M_00004_00004,-10],aux32)
+weightedsumgeq([1,4,1],[M_00004_00003,M_00004_00004,-10],aux32)
+weightedsumleq([4,1,1],[M_00003_00002,M_00003_00004,-9],aux33)
+weightedsumgeq([4,1,1],[M_00003_00002,M_00003_00004,-9],aux33)
+weightedsumleq([4,1,1],[M_00003_00002,M_00003_00003,-10],aux34)
+weightedsumgeq([4,1,1],[M_00003_00002,M_00003_00003,-10],aux34)
+weightedsumleq([4,1,1],[M_00003_00003,M_00003_00004,-13],aux35)
+weightedsumgeq([4,1,1],[M_00003_00003,M_00003_00004,-13],aux35)
+weightedsumleq([1,4,1],[M_00003_00002,M_00003_00004,-9],aux36)
+weightedsumgeq([1,4,1],[M_00003_00002,M_00003_00004,-9],aux36)
+weightedsumleq([1,4,1],[M_00003_00002,M_00003_00003,-13],aux37)
+weightedsumgeq([1,4,1],[M_00003_00002,M_00003_00003,-13],aux37)
+weightedsumleq([1,4,1],[M_00003_00003,M_00003_00004,-10],aux38)
+weightedsumgeq([1,4,1],[M_00003_00003,M_00003_00004,-10],aux38)
+weightedsumleq([1,4,1],[-9,M_00001_00002,M_00001_00004],aux39)
+weightedsumgeq([1,4,1],[-9,M_00001_00002,M_00001_00004],aux39)
+weightedsumleq([1,1,4],[-10,M_00001_00003,M_00001_00004],aux40)
+weightedsumgeq([1,1,4],[-10,M_00001_00003,M_00001_00004],aux40)
+weightedsumleq([1,4,1],[-10,M_00001_00002,M_00001_00003],aux41)
+weightedsumgeq([1,4,1],[-10,M_00001_00002,M_00001_00003],aux41)
+weightedsumleq([1,1,4],[-9,M_00001_00002,M_00001_00004],aux42)
+weightedsumgeq([1,1,4],[-9,M_00001_00002,M_00001_00004],aux42)
+weightedsumleq([1,4,1],[-13,M_00001_00003,M_00001_00004],aux43)
+weightedsumgeq([1,4,1],[-13,M_00001_00003,M_00001_00004],aux43)
+weightedsumleq([1,1,4],[-13,M_00001_00002,M_00001_00003],aux44)
+weightedsumgeq([1,1,4],[-13,M_00001_00002,M_00001_00003],aux44)
+weightedsumleq([5,1],[M_00002_00002,-9],aux45)
+weightedsumgeq([5,1],[M_00002_00002,-9],aux45)
+weightedsumleq([4,1],[M_00002_00002,-7],aux46)
+weightedsumgeq([4,1],[M_00002_00002,-7],aux46)
+weightedsumleq([4,1],[M_00002_00003,-11],aux47)
+weightedsumgeq([4,1],[M_00002_00003,-11],aux47)
+weightedsumleq([4,1],[M_00002_00004,-7],aux48)
+weightedsumgeq([4,1],[M_00002_00004,-7],aux48)
+weightedsumleq([5,1],[M_00002_00003,-14],aux49)
+weightedsumgeq([5,1],[M_00002_00003,-14],aux49)
+weightedsumleq([5,1],[M_00002_00004,-9],aux50)
+weightedsumgeq([5,1],[M_00002_00004,-9],aux50)
+sumleq([M_00004_00004,-1],aux51)
+sumgeq([M_00004_00004,-1],aux51)
+weightedsumleq([1,4],[-7,M_00001_00002],aux52)
+weightedsumgeq([1,4],[-7,M_00001_00002],aux52)
+weightedsumleq([1,4],[-7,M_00001_00004],aux53)
+weightedsumgeq([1,4],[-7,M_00001_00004],aux53)
+weightedsumleq([1,5],[-9,M_00001_00004],aux54)
+weightedsumgeq([1,5],[-9,M_00001_00004],aux54)
+weightedsumleq([1,5],[-9,M_00001_00002],aux55)
+weightedsumgeq([1,5],[-9,M_00001_00002],aux55)
+weightedsumleq([1,4],[-11,M_00001_00003],aux56)
+weightedsumgeq([1,4],[-11,M_00001_00003],aux56)
+weightedsumleq([1,5],[-14,M_00001_00003],aux57)
+weightedsumgeq([1,5],[-14,M_00001_00003],aux57)
+sumleq([M_00002_00002,-1],aux58)
+sumgeq([M_00002_00002,-1],aux58)
+sumleq([M_00002_00003,-2],aux59)
+sumgeq([M_00002_00003,-2],aux59)
+sumleq([M_00004_00002,-1],aux60)
+sumgeq([M_00004_00002,-1],aux60)
+sumleq([M_00003_00003,-2],aux61)
+sumgeq([M_00003_00003,-2],aux61)
+sumleq([M_00004_00003,-2],aux62)
+sumgeq([M_00004_00003,-2],aux62)
+sumleq([-1,M_00001_00002],aux63)
+sumgeq([-1,M_00001_00002],aux63)
+sumleq([M_00002_00004,-1],aux64)
+sumgeq([M_00002_00004,-1],aux64)
+sumleq([M_00003_00002,-1],aux65)
+sumgeq([M_00003_00002,-1],aux65)
+weightedsumleq([5,1],[M_00003_00003,-14],aux66)
+weightedsumgeq([5,1],[M_00003_00003,-14],aux66)
+weightedsumleq([5,1],[M_00003_00002,-9],aux67)
+weightedsumgeq([5,1],[M_00003_00002,-9],aux67)
+weightedsumleq([5,1],[M_00003_00004,-9],aux68)
+weightedsumgeq([5,1],[M_00003_00004,-9],aux68)
+weightedsumleq([4,1],[M_00003_00004,-7],aux69)
+weightedsumgeq([4,1],[M_00003_00004,-7],aux69)
+weightedsumleq([4,1],[M_00003_00003,-11],aux70)
+weightedsumgeq([4,1],[M_00003_00003,-11],aux70)
+weightedsumleq([4,1],[M_00003_00002,-7],aux71)
+weightedsumgeq([4,1],[M_00003_00002,-7],aux71)
+sumleq([M_00003_00004,-1],aux72)
+sumgeq([M_00003_00004,-1],aux72)
+sumleq([-1,M_00001_00004],aux73)
+sumgeq([-1,M_00001_00004],aux73)
+sumleq([-2,M_00001_00003],aux74)
+sumgeq([-2,M_00001_00003],aux74)
+weightedsumleq([4,1],[M_00004_00002,-7],aux75)
+weightedsumgeq([4,1],[M_00004_00002,-7],aux75)
+weightedsumleq([4,1],[M_00004_00003,-11],aux76)
+weightedsumgeq([4,1],[M_00004_00003,-11],aux76)
+weightedsumleq([4,1],[M_00004_00004,-7],aux77)
+weightedsumgeq([4,1],[M_00004_00004,-7],aux77)
+weightedsumleq([5,1],[M_00004_00002,-9],aux78)
+weightedsumgeq([5,1],[M_00004_00002,-9],aux78)
+weightedsumleq([5,1],[M_00004_00003,-14],aux79)
+weightedsumgeq([5,1],[M_00004_00003,-14],aux79)
+weightedsumleq([5,1],[M_00004_00004,-9],aux80)
+weightedsumgeq([5,1],[M_00004_00004,-9],aux80)
+**EOF**

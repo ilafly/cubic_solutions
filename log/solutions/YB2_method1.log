@@ -1,0 +1,19 @@
+Running savilerow. File: YB2_r1.eprime. Output: output/solutionsYB2_r1.output
+I found 3 cubic solutions
+Rack:
+[ [  1,  1 ],
+  [  2,  2 ] ]
+I constructed 3 cubic solutions in 1823ms (= 0:00:01.823)
+Running savilerow. File: YB2_r2.eprime. Output: output/solutionsYB2_r2.output
+I found 1 cubic solutions
+Rack:
+[ [  1,  2 ],
+  [  1,  1 ] ]
+I constructed 4 cubic solutions in 2471ms (= 0:00:02.471)
+Running savilerow. File: YB2_r3.eprime. Output: output/solutionsYB2_r3.output
+I found 2 cubic solutions
+Rack:
+[ [  1,  2 ],
+  [  1,  2 ] ]
+I constructed 6 cubic solutions in 3076ms (= 0:00:03.076)
+gap> cubic_solutions(3);
