@@ -15,6 +15,3 @@
 - construct all dervied cubic YB semitrusses
 - for each derived cubic YB semitruss, construct all possible lambda-maps
 - for each possible lambda-map, construct, if exist, all possible circle operations.
-
-# TO DO
-- fix derived_v3 and YB_given derived
